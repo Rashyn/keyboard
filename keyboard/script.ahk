@@ -26,3 +26,6 @@ vk1D & vk1C:: Send, {vkF3sc029}
 
 ;CTRL + SPACE　BS
 LCtrl & vk20:: Send, {BS}
+
+;shift space アンダーバー
++Space:: Send, +{vkE2}
