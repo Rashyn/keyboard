@@ -21,11 +21,17 @@ vk1D & vkBC:: ShiftAltTab
 ;[無変換] @ Alt + F4 （アプリ終了）
 vk1D & vkC0:: Send, !{F4}
 
-;[変換][無変換]　半角/全角 （IME切り替え）
+;[無変換][変換]　半角/全角 （IME切り替え）
 vk1D & vk1C:: Send, {vkF3sc029}
 
-;CTRL + SPACE　BS
-LCtrl & vk20:: Send, {BS}
+;[変換][無変換]　BS
+vk1C & vk1D:: Send, {BS}
 
 ;shift space アンダーバー
 +Space:: Send, +{vkE2}
+
+;[無変換] space　Delete
+vk1D & vk20:: Send, {Del}
+ 
+;CTRL + SPACE　BS
+;LCtrl & vk20:: Send, {BS}
